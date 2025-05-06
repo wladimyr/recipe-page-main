@@ -6,7 +6,7 @@
 * {
     font-size: 16px;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 html {
@@ -14,6 +14,7 @@ html {
 }
 
 body {
+    box-sizing: border-box;
     font-family: "Outfit", sans-serif;
     font-size: 16px;
     background-color: hsl(30, 54%, 90%);
@@ -69,7 +70,7 @@ section {
     margin: 1rem;
 }
 
-section.img {
+section.omelete-img {
     padding: 0px;
     margin: 0px;
     background-image: url(../assets/images/image-omelette.jpeg);
@@ -95,8 +96,7 @@ table {
 table.separate {
     margin: 1rem;
     padding: 0px;
-    width: 90%;    
-    
+    width: 90%;      
 }
 
 td {
@@ -106,12 +106,11 @@ td {
 }
 
 td.line {
-    border-bottom: 1px solid hsl(227, 15%, 81%);
-        
+    border-bottom: 1px solid hsl(227, 15%, 81%);      
 }
 
 table.nutrition-table td {
-    border-bottom: 1px solid hsl(227, 15%, 81%);;
+    border-bottom: 1px solid hsl(227, 15%, 81%);
 }
 
 footer { 
@@ -126,8 +125,7 @@ footer a {
 
 @media screen and (min-width: 1024px) {
     main {
-        max-width: 1440px;
-        
+        max-width: 1440px;  
     }
     
 }
