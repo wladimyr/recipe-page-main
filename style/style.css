@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-size: 16px;
+    margin: 0;
+    padding: 0
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    background-color: hsl(30, 54%, 90%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-size: 2.3rem;
+    color: hsl(212, 21%, 14%);   
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: hsl(14, 45%, 36%);
+}
+
+h3 {
+   color: hsl(332, 51%, 32%);   
+}
+
+p {
+    color: hsl(228, 12%, 44%);
+    font-size: 14px;
+    margin: 0 1rem;   
+}
+
+hr {
+    border-color: hsl(227, 15%, 81%);
+    border-style: solid;
+    border-width: 1px;
+    margin: 0 1rem;
+       
+}
+
+.disc {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;   
+}
+
+.disc-p {
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;   
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    max-width: 375px;    
+}  
+
+section {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+section.img {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../assets/images/image-omelette.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+section.preparation {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    margin: 0 2em;
+}
+
+table {
+    margin: 1rem;
+    width: 90%;
+    font-size: 14px;
+    color: hsl(228, 12%, 44%);
+    border-collapse: collapse;
+}
+
+table.separate {
+    margin: 1rem;
+    padding: 0px;
+    width: 90%;    
+    
+}
+
+td {
+    font-size: 14px;
+    padding: 0.5rem;
+    vertical-align: top;
+}
+
+td.line {
+    border-bottom: 1px solid hsl(227, 15%, 81%);
+        
+}
+
+table.nutrition-table td {
+    border-bottom: 1px solid hsl(227, 15%, 81%);;
+}
+
+footer { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+footer a { 
+    color: hsl(228, 45%, 44%); 
+    font-size: 11px;
+}
+
+@media screen and (min-width: 769px) {
+    main {
+        max-width: 1440px;
+        
+    }
+    
+}
