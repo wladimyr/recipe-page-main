@@ -25,8 +25,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/wladimyr/social-links-profile-main)
-- Live Site URL: [Add live site URL here](https://wladimyr.github.io/social-links-profile-main/)
+- Solution URL: [Add solution URL here](https://github.com/wladimyr/recipe-page-main)
+- Live Site URL: [Add live site URL here](https://wladimyr.github.io/recipe-page-main/)
 
 ## My process
 
@@ -34,7 +34,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- Table
+- Grid
 - Mobile-first workflow
 
 ### What I learned
